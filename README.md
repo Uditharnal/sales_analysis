@@ -1,2 +1,3 @@
-# sales_analysis
-Data analysis project exploring trends, KPIs, and insights from retail sales data using Excel, SQL, and visualization tools
+# Sales_Analysis
+A complete data analysis project using sales data — from cleaning to visualization.A complete data analysis project using sales data — from cleaning to visualization.
+
