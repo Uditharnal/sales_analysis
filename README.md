@@ -10,13 +10,21 @@ An end‑to‑end analytics project on retail/e‑commerce sales: data modeling 
 ## 📂 Structure
 sales-data-analysis/
 ├─ data/
+
 │ ├─ data_raw/ # source CSVs (ignored by Git)
+
 │ ├─ data_interim/ # cleaned/joins exported from SQL
+
 │ └─ data_processed/ # final datasets for BI
+
 ├─ sql/ # DDL and analysis queries
+
 ├─ excel/ # Excel report(s)
+
 ├─ powerbi/ # .pbix dashboard
+
 ├─ visuals/ # exported PNGs for README
+
 └─ docs/ # notes, decisions, data dictionary
 
 ## 🗺️ Roadmap
