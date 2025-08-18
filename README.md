@@ -9,6 +9,7 @@ An end‑to‑end analytics project on retail/e‑commerce sales: data modeling 
 
 ## 📂 Structure
 sales-data-analysis/
+
 ├─ data/
 
 │ ├─ data_raw/ # source CSVs (ignored by Git)
