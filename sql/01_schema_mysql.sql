@@ -29,5 +29,5 @@ CREATE TABLE orders_clean (
   sales           DECIMAL(12,2),
   discount        DECIMAL(6,4),
   profit          DECIMAL(12,2),
-  PRIMARY KEY (order_id, product_id)  -- adjust if needed
+  PRIMARY KEY (order_id, product_id)
 );
