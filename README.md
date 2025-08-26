@@ -30,9 +30,9 @@ sales-data-analysis/
 
 ## 🗺️ Roadmap
 - [x] Create repo & structure
-- [ ] Load sample Superstore dataset
-- [ ] Create MySQL schema & load
-- [ ] Clean/dedupe & fix dates
+- [x] Load sample Superstore dataset
+- [x] Create MySQL schema & load
+- [x] Clean/dedupe & fix dates
 - [ ] EDA queries
 - [ ] Excel KPIs + pivots
 - [ ] Power BI dashboard
