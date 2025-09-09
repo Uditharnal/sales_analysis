@@ -12,7 +12,7 @@ sales-data-analysis/
 
 ├─ data/
 
-│ ├─ data_raw/ # source CSVs (ignored by Git)
+│ ├─ data_raw/ # source CSVs
 
 │ ├─ data_interim/ # cleaned/joins exported from SQL
 
@@ -20,7 +20,7 @@ sales-data-analysis/
 
 ├─ sql/ # DDL and analysis queries
 
-├─ excel/ # Excel report(s)
+├─ excel/ # Excel report
 
 ├─ powerbi/ # .pbix dashboard
 
@@ -33,17 +33,17 @@ sales-data-analysis/
 - [x] Load sample Superstore dataset
 - [x] Create MySQL schema & load
 - [x] Clean/dedupe & fix dates
-- [ ] EDA queries
-- [ ] Excel KPIs + pivots
-- [ ] Power BI dashboard
-- [ ] Publish dashboard & screenshots
-- [ ] Write up insights
+- [x] EDA queries
+- [x] Excel KPIs + pivots
+- [x] Power BI dashboard
+- [x] Publish dashboard & screenshots
+- [x] Write up insights
 
-## 🧰 Getting Started
-1. Create the MySQL tables with `sql/01_schema_mysql.sql`
-2. Load your CSVs into MySQL (`data/data_raw/`)
-3. Run cleaning in `sql/02_cleaning_mysql.sql`
-4. Export clean tables → `data/data_interim/`
-5. Build Excel & Power BI from those files
+## 🔎 Key Insights (v1)
+- Region **West** leads revenue; **South** shows fastest growth MoM at 22.95%.
+- Top 10 products contribute 10.81% of sales (Pareto effect).
+- AOV is $460.42; consider bundles for segments with lower AOV.
+
+![Overview](visuals/dashboard_overview.png)
 
 
