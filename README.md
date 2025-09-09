@@ -44,6 +44,6 @@ sales-data-analysis/
 - Top 10 products contribute 10.81% of sales (Pareto effect).
 - AOV is $460.42; consider bundles for segments with lower AOV.
 
-![Overview](visuals/dashboard_overview.png)
+![Overview](visuals/dashboard_overview.PNG)
 
 
